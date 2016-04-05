@@ -1,0 +1,248 @@
+body {
+    background: url("images/background.png") no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.table {
+    width: auto;
+    margin: 20px auto;
+    /*
+    float: left; (add this to card-red and card-black if you use this for table display instead)
+    width: 95%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    */
+    background-color: #376e37;
+    border: 20px solid saddlebrown;
+    position: relative;
+    display: block;
+    text-align: center;
+    height: auto;
+    -moz-box-shadow: 0 0 40px #000000;
+    -webkit-box-shadow: 0 0 40px #000000;
+    box-shadow: 0 0 40px #000000;
+}
+
+.inner-shadow {
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.hand {
+    position: relative;
+    margin: 20px auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    /*
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    */
+    z-index: 2;
+    display: inline-block;
+}
+
+
+.name {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: white;
+    border: 2px solid goldenrod;
+    -moz-text-shadow: 0 0 5px #000000;
+    -webkit-text-shadow: 0 0 5px #000000;
+    text-shadow: 0 0 5px #000000;
+    -moz-box-shadow: 0 0 15px #000000;
+    -webkit-box-shadow: 0 0 15px #000000;
+    box-shadow: 0 0 15px #000000;
+}
+
+.card-red {
+    color: red;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    width: 70px;
+    height: 100px;
+    background-color: white;
+    -moz-box-shadow: 0 7px 5px #000000;
+    -webkit-box-shadow: 0 7px 5px #000000;
+    box-shadow: 0 7px 5px #000000;
+    display: inline-block;
+}
+
+.card-black {
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    width: 70px;
+    height: 100px;
+    background-color: white;
+    -moz-box-shadow: 0 7px 5px #000000;
+    -webkit-box-shadow: 0 7px 5px #000000;
+    box-shadow: 0 7px 5px #000000;
+    display: inline-block;
+}
+
+/*
+.cardValue {
+    width: 100%;
+    margin-top: 18px;
+    font-size: 30px;
+    text-align: center;
+}
+*/
+
+.cardValueTopLeft {
+    margin-left: 5px;
+    margin-top: 5px;
+    float: left;
+}
+
+.cardValueTopRight {
+    margin-right: 5px;
+    margin-top: 5px;
+    float: right;
+}
+
+
+.cardSuitMiddle {
+    width: 70px;
+    text-align: center;
+    margin-top: 28px;
+    font-size: 40px;
+}
+
+.cardValueBottomLeft {
+    margin-left: 5px;
+    margin-top: 4px;
+    float: left;
+
+    /* Flip text upside down */
+    -webkit-transform:rotate(-180deg);
+    -moz-transform:rotate(-180deg);
+    -o-transform:rotate(-180deg);
+    transform:rotate(-180deg);
+}
+
+.cardValueBottomRight {
+    margin-right: 5px;
+    margin-top: 4px;
+    float: right;
+
+    /* Flip text upside down */
+    -webkit-transform:rotate(-180deg);
+    -moz-transform:rotate(-180deg);
+    -o-transform:rotate(-180deg);
+    transform:rotate(-180deg);
+}
+
+.divider {
+    margin-top: 30px;
+    width: 100%;
+    height: 20px;
+    background-color: saddlebrown;
+    /* top and bottom shadow only, with slight left and right bleed */
+    box-shadow: 0 -2px 2px #1f3e1f, 0 2px 2px #1f3e1f;
+    -webkit-box-shadow: 0 -2px 2px #1f3e1f, 0 2px 2px #1f3e1f;
+    -moz-box-shadow: 0 -2px 2px #1f3e1f, 0 2px 2px #1f3e1f;
+}
+
+.message {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: #b22a2d;
+}
+
+.headline-off-table {
+    width: 99.5%;
+    text-align: center;
+    font-size: 60px;
+    margin: 10px 0px 40px 0px;
+    background-color: #376e37;
+    color: goldenrod;
+    border: 2px solid goldenrod;
+    -moz-text-shadow: 0 0 5px #000000;
+    -webkit-text-shadow: 0 0 5px #000000;
+    text-shadow: 0 0 5px #000000;
+    -moz-box-shadow: 0 0 40px #000000;
+    -webkit-box-shadow: 0 0 40px #000000;
+    box-shadow: 0 0 40px #000000;
+}
+
+.headline-on-table {
+    width: 99.5%;
+    text-align: center;
+    font-size: 60px;
+    margin: 10px 0px 40px 0px;
+    background-color: #376e37;
+    color: goldenrod;
+    border: 2px solid goldenrod;
+    -moz-text-shadow: 0 0 5px #000000;
+    -webkit-text-shadow: 0 0 5px #000000;
+    text-shadow: 0 0 5px #000000;
+    /* top and bottom shadow only, with slight left and right bleed */
+    box-shadow: 0 -3px 3px #1f3e1f, 0 3px 3px #1f3e1f;
+    -webkit-box-shadow: 0 -3px 3px #1f3e1f, 0 3px 3px #1f3e1f;
+    -moz-box-shadow: 0 -3px 3px #1f3e1f, 0 3px 3px #1f3e1f;
+
+}
+
+.score {
+    font-size: 40px;
+    color: goldenrod;
+}
+
+.button {
+    background-color: #376e37;
+    border: 5px solid saddlebrown;
+    color: goldenrod;
+    -moz-text-shadow: 0 0 5px #000000;
+    -webkit-text-shadow: 0 0 5px #000000;
+    text-shadow: 0 0 5px #000000;
+    -moz-box-shadow: 0 0 15px #000000;
+    -webkit-box-shadow: 0 0 15px #000000;
+    box-shadow: 0 0 15px #000000;
+}
+
+.reset {
+    width: 500px;
+    height: 60px;
+    font: 30px Times New Roman;
+    margin-top: 20px;
+    border: 10px solid saddlebrown;
+}
+
+.add {
+    width: 100px;
+    height: 40px;
+    font: 20px Times New Roman;
+}
+
+.continue {
+    width: 150px;
+    height: 40px;
+    font: 20px Times New Roman;
+    margin: 20px 0px 20px 0px;
+}
+
+input[type="text"] {
+    height: 30px;
+    width: 200px;
+    font: 20px Times New Roman;
+    border: 5px solid saddlebrown;
+    -moz-box-shadow: 0 0 15px #000000;
+    -webkit-box-shadow: 0 0 15px #000000;
+    box-shadow: 0 0 15px #000000;
+}
